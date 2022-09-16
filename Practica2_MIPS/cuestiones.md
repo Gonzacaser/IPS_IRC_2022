@@ -211,12 +211,81 @@ Cuando dato2 = 0, se almacena un 40 en *res (0x00000028)*
             if ( dato1 \< dato2 ) then res = dato1 
                 else
                     res = dato2
-                Finsi
+                Endif
         FIN
 
 ---
 ## Cuestion 2.13
 Luego de ejecutar se guarda un 30 en *res: 0x0000001e*.
 En caso de dato1 ser igual a 35, se guarda 35 en *res 0x00000023.*
+
+---
+## Cuestion 2.14
+La pseudoinstrucción
+
+    bge $8, $9, dir
+    
+    slt $1, $8, $9
+
+    beq $1, $0, dir
+
+Se compara si 8 es menor a 9.
+
+---
+## Cuestion 2.15
+![Cuestion2.15](https://cdn.discordapp.com/attachments/1001292234722922566/1020174469614018580/unknown.png)
+
+---
+## Cuestion 2.16
+
+            VAR
+    Int:    dato1 = 30;
+            dato2 = 40;
+            dato3 = -1;
+            res;
+    INICIO
+            if ( dato3 \< dato2 ) then res = 1
+                else
+                    if ( dato3 \<= dato2 ) then res = 0
+            else
+                res = 1
+                    Endif
+            Endif
+        FIN
+
+
+---
+## Cuestion 2.17
+Se guarda un 1 en *res: 0x00000001*
+<br>
+
+En caso de ser dato1 = 40 y dato2 = 30, se almacena 1 en *res: 0x00000001*
+
+---
+## Cuestion 2.18
+![Cuestion2.18](https://cdn.discordapp.com/attachments/1001292234722922566/1020179876340305980/unknown.png)
+---
+## Cuestion 2.19
+Las instrucciones *lb, la* suman de 1, es decir iteran el *string*. Se utiliza *beq* para comprobar si terminó el string y en tal caso branchear. Y se realiza un jump con *j* para hacer una nueva iteración.
+
+---
+## Cuestion 2.20
+
+Se almacena un 4 en n al ejecutar el programa.
+
+---
+## Cuestion 2.21
+![Cuestion2.21](https://cdn.discordapp.com/attachments/1001292234722922566/1020182957652189184/unknown.png)
+
+---
+## Cuestion 2.22
+La instrucción *bgt* evalua si debe seguir ejecutando el ciclo mientras sea mayor que, o caso contrario *branchear* (salir del ciclo). El *load word* carga un elemento. *addi t2, t2, 4* hace que t2 apunte al siguiente elemento del vector. Y con *j* se salta para volver al cilco y ejecutarlo.
+
+---
+## Cuestion 2.23
+Se almacena la suma de los elementos en *res: 0x00000029* = 41.
+
+---
+## Cuestion 2.24
 
 ---
