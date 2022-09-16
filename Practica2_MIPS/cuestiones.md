@@ -1,3 +1,6 @@
+# Gonzalo Casermeiro
+<br>
+
 # Cuestiones Primer Ejercicio (1.1 -\> 1.30)
 
 ## Cuestion 1.1
@@ -69,7 +72,7 @@ Se ha evaluado que **ambos** datos sean distintos de 0 simultaneamente (dato1 \<
 
 ---
 ## Cuestion 1.18
-![Cuestion1.18](https://cdn.discordapp.com/attachments/1001292234722922566/1020029785168171069/unknown.png)
+![Cuestion1.18](https://cdn.discordapp.com/attachments/1001292234722922566/1020194803201359872/unknown.png)
 
 ---
 ## Cuestion 1.19
@@ -287,5 +290,6 @@ Se almacena la suma de los elementos en *res: 0x00000029* = 41.
 
 ---
 ## Cuestion 2.24
+![Cuestion2.24](https://cdn.discordapp.com/attachments/1001292234722922566/1020194005822226462/unknown.png)
 
 ---
