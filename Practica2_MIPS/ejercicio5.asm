@@ -18,9 +18,9 @@ bucle:          bgt $t7, $t1, fin               # si el contador supera el largo
                 add $r0, $r0, 1                 # sumo 1 a r0
              
             
-distintocero:   addi	$t7, $t7, 1			    # sumo 1 al contador 
-                addi	$t0, $t0, 4		    	# sumo 4 a la direccion del vector, por haber sumado 1 word
-                j		bucle   				# jump a bucle
+distintocero:   addi $t7, $t7, 1			    # sumo 1 al contador 
+                addi $t0, $t0, 4		    	# sumo 4 a la direccion del vector, por haber sumado 1 word
+                j bucle   				# jump a bucle
                 
 
 fin:            sw $r0, total($0)               # guardo palabra resultado en res
